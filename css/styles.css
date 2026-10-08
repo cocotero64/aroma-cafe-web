@@ -1,0 +1,4 @@
+
+:root { --primary: #7B3F00; }
+body { font-family: Arial, sans-serif; margin: 0; }
+nav a { color: var(--primary); margin-right: 1rem; }
