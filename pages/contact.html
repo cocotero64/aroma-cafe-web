@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Aroma Café</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body class="contact-page">
+    <header>
+      <nav aria-label="Navegación principal">
+        <a href="../index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="contact.html" aria-current="page">Contacto</a>
+      </nav>
+
+      <h1>Contacto</h1>
+      <p>Estamos aquí para escucharte. Escríbenos o visítanos en Aroma Café.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="contacto-directo">
+        <h2 id="contacto-directo">Información de contacto</h2>
+        <address>
+          Aroma Café<br />
+          123 Coffee Street<br />
+          Columbus, OH<br />
+          <a href="tel:+16145550199">(614) 555-0199</a><br />
+          <a href="mailto:hola@aromacafe.com">hola@aromacafe.com</a>
+        </address>
+      </section>
+
+      <section aria-labelledby="envianos-mensaje">
+        <h2 id="envianos-mensaje">Envíanos un mensaje</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="nombre">Nombre</label><br />
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              autocomplete="name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="correo">Correo electrónico</label><br />
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              autocomplete="email"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="asunto">Asunto</label><br />
+            <input type="text" id="asunto" name="asunto" required />
+          </p>
+
+          <p>
+            <label for="mensaje">Mensaje</label><br />
+            <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+          </p>
+
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Aroma Café</p>
+    </footer>
+  </body>
+</html>
