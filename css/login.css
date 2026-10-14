@@ -607,3 +607,22 @@ body.login-page {
         font-size: 1.6rem;
     }
 }
+
+/* Corrección mínima: evita que los cinco enlaces desborden en móviles. */
+@media (max-width: 760px) {
+    .login-page .header-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.7rem;
+    }
+
+    .login-page .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25rem;
+    }
+
+    .login-page .nav-links a {
+        padding: 0.35rem 0.55rem;
+    }
+}
