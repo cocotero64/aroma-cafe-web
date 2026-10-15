@@ -1,20 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aroma Café</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Aroma Café</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
-<body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="pages/menu.html">Menu</a>
-        <a href="pages/contact.html">Contact</a>
-    </nav>
+<body class="home-page">
+    <header class="hero">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo home-logo" href="index.html">Aroma Café</a>
+            <div class="nav-links">
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="pages/menu.html">Menu</a>
+                <a href="pages/about.html">About Us</a>
+                <a href="pages/contact.html">Contact</a>
+                <a href="pages/login.html">Login</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to Aroma Café</h1>
+            <p>Freshly brewed coffee, made with passion and warmth.</p>
+            <a class="home-button" href="pages/menu.html">Explore our menu</a>
+        </div>
+    </header>
 
-    <h1>Aroma Café</h1>
+    <main class="home-main">
+        <h2>Good coffee, good moments</h2>
+        <p>Explore our drinks, learn our story, and find a place to enjoy your next cup.</p>
+        <div class="home-links">
+            <a href="pages/about.html">Our story</a>
+            <a href="pages/contact.html">Visit us</a>
+        </div>
+    </main>
 
-    <footer>Call us: (614) 555-0199</footer>
+    <footer class="footer">Call us: (614) 555-0199</footer>
 </body>
 </html>
